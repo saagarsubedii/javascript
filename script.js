@@ -78,7 +78,7 @@ for(let i=1;  i<=5; i++){
 }*/
 
 //document.getElementById("h1").textContent = "welcome to my website";
-const PI = 3.14;
+/*const PI = 3.14;
 let radius;
 let circle;
 
@@ -87,4 +87,53 @@ document.getElementById("submit").onclick = function(){
     radius = Number(radius);
     circle = 2*PI*radius;
     document.getElementById("myh2").textContent = circle;
-    }
+    }*/
+
+
+  /* const countlable = document.getElementById("countlable");
+   const decreasebtn = document.getElementById("decreasebtn");
+   const resetbtn = document.getElementById("resetbtn");
+   const increasebtn = document.getElementById("increasebtn");
+
+   let count =0;
+   decreasebtn.onclick = function(){
+    count--;
+    countlable.textContent = count;
+   }
+   resetbtn.onclick = function(){
+    count=0;
+    countlable.textContent =count;
+   }
+   increasebtn.onclick = function(){
+    count++;
+    countlabel.textContent = count;
+   }*/
+
+/*
+// Get DOM elements
+const lengthInput = document.getElementById("lengthInput");
+const breadthInput = document.getElementById("breadthInput");
+const submitBtn = document.getElementById("submitBtn");
+const result = document.getElementById("result");
+
+// Event listener for Submit button
+submitBtn.addEventListener("click", function() {
+  // Get values from inputs
+  const lengthValue = parseFloat(lengthInput.value);
+  const breadthValue = parseFloat(breadthInput.value);
+
+
+  // Calculate area
+  const area = lengthValue * breadthValue;
+
+  // Display result
+  result.innerText = `Area of rectangle is: ${area}`;
+});*/
+
+
+
+const TryitButton = document.getElementById("trybtn");
+TryitButton.addEventListener("click", function() {
+    console.log("clicked button");
+    document.getElementById("message").textContent = "clicked button";
+});
